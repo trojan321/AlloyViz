@@ -1,0 +1,11 @@
+digraph G {
+rankdir=<BT>;
+ranksep=1.5;
+nodesep=1;
+{ rank = max; MODULES_HEAD_FORMAT_RESERVED;}
+{ rank = max; Univ; }
+MODULES_HEAD_FORMAT_RESERVED[shape=folder,fontcolor=black, penwidth=5, color=gray45][label=< <B>&lt;&lt;module&gt;&gt;</B><BR/>module util/sequniv <BR/>open util/integer as ui <BR/> >];
+MODULES_HEAD_FORMAT_RESERVED->Univ[style=invis]
+Univ [shape=box][style=filled, fillcolor=gold][label=< <B> Univ </B> >, fontsize=30, penwidth=5, margin=0.25];
+
+}
